@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-wdth, initial-scale=1" charset="UTF-8">
+	<title>LaForrest Church Resume</title>
+	<link rel="stylesheet" type="text/css" href="indexRewrite.css">
+	<script type="text/javascript">
+	   function toggle_visibility(id) {
+		    var x = document.getElementById(id);
+		    if (x.style.display === "none") {
+		        x.style.display = "grid";
+		    } else {
+		        x.style.display = "none";
+		    }
+		} 
+	</script>
+</head>
+<body>
+	<div id="background-wrap">
+    <div class="x1">
+        <div class="cloud"></div>
+    </div>
+
+    <div class="x2">
+        <div class="cloud"></div>
+    </div>
+
+    <div class="x3">
+        <div class="cloud"></div>
+    </div>
+
+    <div class="x4">
+        <div class="cloud"></div>
+    </div>
+
+    <div class="x5">
+        <div class="cloud"></div>
+    </div>
+</div>
+	<div class="container">
+		<img id="cartoon" src="assets/cartoonman1.png" height="200px" width="auto">
+	  <button class="word word1" onclick="toggle_visibility('about-me')">Forrest</button>
+	  <button class="word word2" onclick="toggle_visibility('about-me')">Church</button>
+	  <button class="word word3" onclick="toggle_visibility('personal-info')">Personal</button>
+	  <button class="word word4" onclick="toggle_visibility('personal-info')">Details</button>
+	  <button class="word word5" onclick="toggle_visibility('employment')">Employment</button>
+	  <button class="word word6" onclick="toggle_visibility('employment')">History </button>
+	  <button class="word word7" onclick="toggle_visibility('education')">Education</button>
+	  <button class="word word8" onclick="toggle_visibility('job-skills')">Professional</button>
+	  <button class="word word9" onclick="toggle_visibility('job-skills')">Skills </button>
+	  <button class="word word10" onclick="toggle_visibility('tech-skills')">Technical</button>
+	  <button class="word word11" onclick="toggle_visibility('tech-skills')">Skills </button>
+	  <button class="word word12" onclick="toggle_visibility('contact-info')">Contact</button>
+
+	  <a href="Resume_Church_Forrest_Web.pdf" id="download-icon" download="Resume_Church_Forrest_Web.pdf"><img src="assets/download.png" alt="downoad download-icon" height="75px">
+	  <a id="linked-in" href="https://www.linkedin.com/in/laforrest-church-4b5a72140"><img src="assets/linked.png" alt="linked in organe logo" height="75px"></a>
+	  <a href="#" id="web-icon" target="_blank"><img src="assets/earth.png" alt="globe world-icon" height="75px"></a>
+
+	  <div id="about-me" style="display: none" onclick="toggle_visibility('about-me')">
+	  	<img class="close" src="assets/close.svg" height="30px" width="30px">
+	  	<div class="bannerimage"><img src="assets/about-me-banner.svg" height="200px" width="500px"></div>
+	  	<img src="assets/selfie.jpeg" id="selfie">
+	  	<article class="info-box-one">
+  			<p>I am an Anthropology major with a minor in Computer Science, with an expected graduation date of May 2018, who is passionate about design, development, and user experience. With my background in Anthropology I have been able to develop a skill set aimed at analyzing and implementing customer needs through an interactive and responsive user experience. Anthropology has taught me an enormous amount about the person sitting in front of the computer screen and realizing that that individual is the end goal. Through this understanding I have focused much of my energy on design and development with appropriate surveys, interviews, and feedback to get a better understanding on how to deliver a better end product. I strive to deliver entertaining and visually appealing design elements to my work as well as provide precise code to implement cutting edge web design. I am proficient in several programming languages with Java being my first language. I enjoy learning about all kinds of programming including mobile application development and software engineering, however, I enjoy web design and development the most. I am also a collegiate track and field athlete at the University of Memphis and a father to one beautiful little boy named Thomas.</p>
+  		</article>
+	  </div>
+	  <div id="personal-info" style="display: none" onclick="toggle_visibility('personal-info')">
+	  	<img class="close" src="assets/close.svg" height="30px" width="30px">
+	  	<img id="pd-title" src="assets/personaldetails1.svg" width="400px" height="200px">
+	  	<img id="family-pic" src="assets/familyphoto.jpg">
+	  	<div id="family-stuff">
+		  	<article id="family-info">
+		  		<h2>Family Info</h2>
+		  		<ul id="family-info-list">
+		  			<li>Happily married since August 2015</li>
+		  			<li>Father of one beautiful two year-old</li>
+		  			<li>Proud life companion to one four-legged pup</li>
+		  			<li><br></li>
+		  		</ul>
+		  	</article>
+	  	<article id="likes">
+	  		<h2>Some Stuff I Like!</h2>
+	  		<ul>
+	  			<li>Running</li>
+	  			<li>Photography</li>
+	  			<li>Drawing/Painting/Designing</li>
+	  			<li>Lore of The Lord of the Rings</li>
+	  			<li>Rick and Morty Re-runs</li>
+	  			<li><br></li>
+	  		</ul>
+	  	</article>
+	  	<article id="dislikes">
+	  		<h2>Some Stuff Not Really a Fan of....</h2>
+	  		<ul>
+	  			<li>Star Trek Fans</li>
+	  			<li>Cold Coffee</li>
+	  			<li>Soggy Pancakes</li>
+	  			<li>Being Late</li>
+	  		</ul>
+	  	</article>
+	  </div>
+	 </div>
+	 <div id="employment" style="display: none" onclick="toggle_visibility('employment')">
+	  	<img class="close" src="assets/close.svg" height="30px" width="30px">
+	  	<img id="employment-banner" src="assets/employment-banner2.svg">
+	  	<article id="job-list">
+	  		<p>Teaching Assistant, CodeCrew<br>Aug. 2017 - Present<br>Classes instructed: Mobile Application Development, Robotics, Computer Game and Animation Design</p>
+	  		<p><br></p>
+	  		<p>Staff Member, RiverPlay, Grizzlies Foundation<br>May 2017 - Aug. 2017<br>Duties included: Maintenance and supervision of individuals participating at the institution</p>
+	  	</article>
+	  </div>
+	  <div id="education" style="display: none" onclick="toggle_visibility('education')">
+	   	<img class="close" src="assets/close.svg" height="30px" width="30px">
+	   	<img id="education-banner" src="assets/education-banner2.svg">
+	   	<article id="degree-list">
+	   		<p>B.A. in Anthropology w/ Minor in Computer Science, University of Memphis, Memphis TN, Aug 2013 - May 2018</p>
+	   		<p><br></p>
+	   		<p>High School Diploma, South Kitsap High School, Port Orchard WA, Graduated in 2013</p>
+	   	</article>
+	   </div>
+	  <div id="job-skills" style="display: none" onclick="toggle_visibility('job-skills')">
+	  	<img class="close" src="assets/close.svg" height="30px" width="30px">
+	  	<img src="assets/handshake.svg" id="handshake" height="300px" width="300px">
+	  	<h1 id="prof-skills-title">Professional Skills</h1>
+	  	<article id="p-skills-list">
+	  			<ul>
+	  				<li>Oral Communication</li>
+	  				<li>Qualitative and Quantitative research</li>
+	  				<li>Public Outreach</li>
+	  				<li>Microsoft Office/Google Suite</li>
+	  				<li>Critical Reading</li>
+	  				<li>Interviewing</li>
+	  				<li>Social media management/marketing</li>
+	  				<li>Graphic/Digital Design</li>
+	  				<li>Public Speaking</li>
+	  				<li>Spanish</li>
+	  				<li>Japanese</li>
+	  				<li>Research Design</li>
+	  				<li>Data Analysis</li>
+	  				<li>Documentation Writing</li>
+	  				<li>Web Design</li>
+	  				<li>Web Development</li>
+	  			</ul>
+	  	</article>
+	  </div>
+	  <div id="tech-skills" style="display: none" onclick="toggle_visibility('tech-skills')">
+	  	<div class="skills-graph">
+	  		<div class="skills">
+	  		  <ul class="lines">
+	  		    <li class="line l-0">
+	  		      <span class="line-label title">
+	  		        0%
+	  		      </span>
+	  		    </li>
+	  		    <li class="line l-25">
+	  		      <span class="line-label">
+	  		        25%
+	  		      </span>
+	  		    </li>
+	  		    <li class="line l-50">
+	  		      <span class="line-label">
+	  		        50%
+	  		      </span>
+	  		    </li>
+	  		    <li class="line l-75">
+	  		      <span class="line-label">
+	  		        75%
+	  		      </span>
+	  		    </li>
+	  		    <li class="line l-100">
+	  		      <span class="line-label">
+	  		        100%
+	  		      </span>
+	  		    </li>
+	  		  </ul>
+	  		  
+	  		  <div class="charts">
+	  		    <div class="chart-development">
+	  		      <span class="chart-title">Development</span>
+	  		      <ul class="chart-horizontal">
+	  		        <li class="chart-bar" style="width: 85%;">
+	  		          <span class="chart-label">
+	  		            HTML
+	  		          </span>
+	  		        </li>
+	  		        <li class="chart-bar" style="width: 85%;">
+	  		          <span class="chart-label">
+	  		            CSS/SCSS
+	  		          </span>
+	  		        </li>
+	  		        <li class="chart-bar" style="width: 65%;">
+	  		          <span class="chart-label">
+	  		            JavaScript
+	  		          </span>
+	  		        </li>
+	  		        <li class="chart-bar" style="width:85%;">
+	  		          <span class="chart-label">
+	  		            Java
+	  		          </span>
+	  		        </li>
+	  		        <li class="chart-bar" style="width: 60%;">
+	  		          <span class="chart-label">
+	  		            ReactJS/VueJS
+	  		          </span>
+	  		        </li>
+	  		        <li class="chart-bar" style="width: 60%;">
+	  		          <span class="chart-label">
+	  		            NodeJS
+	  		          </span>
+	  		        </li>
+	  		        <li class="chart-bar" style="width: 60%;">
+	  		          <span class="chart-label">
+	  		            C/C++
+	  		          </span>
+	  		        </li>
+	  				<li class="chart-bar" style="width: 50%;">
+	  				  <span class="chart-label">
+	  				     MySQL
+	  				  </span>
+	  				</li>
+	  				<li class="chart-bar" style="width: 65%;">
+  				      <span class="chart-label">
+  				        AWS
+  				      </span>
+  				    </li>
+	  		      </ul>
+	  		    </div>
+	  		    
+	  		    <div class="chart chart-design">
+	  		      <span class="chart-title">Design Tools</span>
+	  		      <ul class="chart-horizontal">
+	  		      <li class="chart-bar" style="width: 80%;">
+	  		        <span class="chart-label">
+	  		          Photoshop
+	  		        </span>
+	  		      </li>
+	  		      <li class="chart-bar" style="width: 60%;">
+	  		        <span class="chart-label">
+	  		          Illustrator
+	  		        </span>
+	  		      </li>
+	  		      <li class="chart-bar" style="width: 80%;">
+	  		        <span class="chart-label">
+	  		          User Experience
+	  		        </span>
+	  		      </li>
+	  		    </ul>
+	  		    </div>
+	  			
+	  			<div class="chart chart-os">
+	  		      <span class="chart-title">Operating Systems</span>
+	  		      <ul class="chart-horizontal">
+	  		      <li class="chart-bar" style="width: 90%;">
+	  		        <span class="chart-label">
+	  		          MacOS
+	  		        </span>
+	  		      </li>
+	  		      <li class="chart-bar" style="width: 90%;">
+	  		        <span class="chart-label">
+	  		          Windows
+	  		        </span>
+	  		      </li>
+	  		      <li class="chart-bar" style="width: 80%;">
+	  		        <span class="chart-label">
+	  		          Linux
+	  		        </span>
+	  		      </li>
+	  		    </ul>
+	  		    </div>
+	  		  </div>
+	  		</div>
+	  		
+	  	</div>
+	  </div>
+	  <div id="contact-info" style="display: none" onclick="toggle_visibility('contact-info')">
+	  	<img class="close" src="assets/close.svg" height="30px" width="30px">
+	  	<img src="assets/message.svg" id="contact-pic" height="300px" width="300px">
+	  	<h1 id="contact-info-title">Contact Info</h1>
+	  	<div id="contact-info-box-one">
+	  			<p>Cell: (901)-623-5760<br>Email: ltchurch@memphis.edu<br>Address: 3542 Kearney Ave, Memphis TN 38111<br><br><br>References available upon request</p>
+	  			<h1>Thank you for your time!</h1>
+	  	</div>
+	  </div>
+
+	</div><!--end container-->	
+</body>
+</html><!DOCTYPE html>
